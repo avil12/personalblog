@@ -1,0 +1,58 @@
+/* src/App.css */
+.taskapp {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .taskapp .task-list {
+    margin-top: 20px;
+  }
+  
+  .taskapp .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .taskapp .task.completed span {
+    text-decoration: line-through;
+  }
+  
+  .taskapp .task button {
+    /* background: none; */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+}
+  
+.taskapp form {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .taskapp input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 16px;
+  }
+  
+  .taskapp button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px !important;
+    cursor: pointer;
+  }
+  
+.taskapp h1{
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}

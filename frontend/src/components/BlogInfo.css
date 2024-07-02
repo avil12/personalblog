@@ -1,0 +1,17 @@
+.info {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .info h2 {
+    color: #282c34;
+    padding-bottom: 13px;
+  }
+  
+  .info p {
+    font-size: 1.2em;
+    max-width: 1500px;
+    text-align: center;
+    margin: auto;
+  }
+  

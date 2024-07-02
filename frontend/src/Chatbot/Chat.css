@@ -1,0 +1,82 @@
+/* Chat.css */
+.chat {
+    position: relative;
+  }
+  
+  .chatbot-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .chatbot-toggle-button img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .chatbot-container {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 1000;
+    width: 275px;
+    max-width: 100%;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  .custom-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .emoji-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .emoji-picker {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    z-index: 1000;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .emoji {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 24px;
+  }
+  
+  .send-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  

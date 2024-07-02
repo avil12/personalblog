@@ -1,0 +1,13 @@
+Project 
+1) Personal Blog (login and registeration)
+2) Public Post
+3) Task Management 
+4) Chatbot (add emojii and inquires)
+
+Details
+1) when user login that time he can read the articles of the post
+2) It should be public post articles
+3) Task management he should able to add small task daily whenever he logins
+4) Chatbot should be automatically add response to user about task inquires and help 
+he needed. Chatbot also need to have emojii.
+    

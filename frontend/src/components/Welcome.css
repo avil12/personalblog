@@ -1,0 +1,15 @@
+.welcome {
+    padding: 20px;
+  }
+  
+  .welcome h2 {
+    color: #282c34;
+    padding-bottom: 13px;
+}
+  
+  .welcome p {
+    font-size: 1.2em;
+    max-width: 1500px;
+    text-align: center;
+    margin: auto;
+}
